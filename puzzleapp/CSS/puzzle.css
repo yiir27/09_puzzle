@@ -1,0 +1,60 @@
+#game {
+    background-color: rgb(117, 231, 237);
+    
+}
+
+.field {
+    margin: 40px auto;
+    padding: 0;
+    border: 1px solid rgb(8, 5, 5);
+    width: 383px;
+    cursor: pointer;
+}
+
+.container {
+    width: 382px;
+    height: 132px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    background-color: rgb(232, 246, 76);
+}
+
+.container .tile {
+    width: 140px;
+    border: 1px solid rgb(8, 8, 8);
+}
+div[data-index="1"] {
+    background: url("../IMG/geoge2.png") no-repeat top center;
+}
+div[data-index="2"] {
+    background: url("../IMG/geoge2.png") no-repeat top right;
+}
+div[data-index="3"] {
+    background: url("../IMG/geoge2.png") no-repeat center left;
+}
+div[data-index="4"] {
+    background: url("../IMG/geoge2.png") no-repeat center center;
+}
+div[data-index="5"] {
+    background: url("../IMG/geoge2.png") no-repeat center right;
+}
+div[data-index="6"] {
+    background: url("../IMG/geoge2.png") no-repeat bottom left;
+}
+div[data-index="7"] {
+    background: url("../IMG/geoge2.png") no-repeat bottom center;
+}
+div[data-index="8"] {
+    background: url("../IMG/geoge2.png") no-repeat bottom right;
+}
+
+h1{
+    text-align: center;
+}
+#timer {
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    margin: 0;
+}
